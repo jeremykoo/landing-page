@@ -13,13 +13,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 16px;
+    padding: 0 40px;
 }
 
 .hero-main {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 
 .hero-logo {
@@ -33,8 +34,37 @@ ul {
     gap: 16px;
 }
 
-a {
+a,
+.subtext {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.introduction {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+#top-image {
+    width: 50%;
+    height: auto;
+}
+
+.intro-text {
+    width: 50%;
+}
+
+button {
+    /* width: 50px; */
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.intro-text .subtext {
+    margin: 10px 0;
 }
