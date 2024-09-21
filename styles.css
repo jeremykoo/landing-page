@@ -68,3 +68,36 @@ button {
 .intro-text .subtext {
     margin: 10px 0;
 }
+
+.information {
+    text-align: center;
+    margin: 40px 0;
+    padding: 0 40px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.feat {
+    padding: 16px;
+    width: 175px;
+}
+
+.square {
+    width: 175px;
+    height: 175px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    flex: 1;
+    margin-bottom: 10px;
+}
