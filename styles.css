@@ -101,3 +101,18 @@ button {
     flex: 1;
     margin-bottom: 10px;
 }
+
+.quote-block {
+    background-color: #E5E7EB;
+    padding: 40px 200px;
+}
+
+.quote {
+    font: 36px light italic #1F2937;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    color: #1F2937;
+}
