@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 120px;
 }
 
 .hero-main {
@@ -44,7 +44,7 @@ a,
 .introduction {
     display: flex;
     gap: 40px;
-    padding: 40px;
+    padding: 40px 120px;
 }
 
 #top-image {
@@ -72,7 +72,7 @@ button {
 .information {
     text-align: center;
     margin: 40px 0;
-    padding: 0 40px;
+    padding: 0 120px;
 }
 
 .info-title {
@@ -115,4 +115,29 @@ button {
     text-align: right;
     font-weight: bold;
     color: #1F2937;
+}
+
+.register {
+    margin: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px 80px;
+}
+
+.description {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.register button {
+    border: 2px solid white;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    width: 100%;
 }
